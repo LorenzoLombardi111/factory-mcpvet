@@ -1,0 +1,22 @@
+{
+  "name": "mcpvet-mcp",
+  "version": "0.1.0",
+  "description": "MCPVet MCP server — scan MCP servers, Claude Code skills, and plugins for unsafe behavior, right inside your agent.",
+  "type": "module",
+  "bin": {
+    "mcpvet-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "license": "MIT",
+  "homepage": "https://mcpvet.com"
+}
